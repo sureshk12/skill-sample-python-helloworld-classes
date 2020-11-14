@@ -1,0 +1,33 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.35cad436-e8a5-463c-8c31-91d6d8363f13",
+      "was_cloned": false,
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "6d7bd486524a8140c89ec01e9468f81b"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "cbb9ddec35a6cce4ea9cb82522a96720"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:us-east-1:252897114646:function:ask-skill-sample-python-he-default-default-1605295312204",
+            "awsRegion": "us-east-1",
+            "codeUri": "lambda/us-east-1_ask-skill-sample-python-he-default-default-1605295312204",
+            "functionName": "ask-skill-sample-python-he-default-default-1605295312204",
+            "handler": "hello_world.handler",
+            "revisionId": "9896097a-7da6-4e05-87bd-d297bdd2e8e9",
+            "runtime": "python3.6"
+          }
+        ]
+      }
+    }
+  }
+}

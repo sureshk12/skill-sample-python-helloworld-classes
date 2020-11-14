@@ -1,0 +1,30 @@
+{
+  "askcliStatesVersion": "2020-03-31",
+  "profiles": {
+    "default": {
+      "skillId": "amzn1.ask.skill.35cad436-e8a5-463c-8c31-91d6d8363f13",
+      "skillMetadata": {
+        "lastDeployHash": "Dgr4FxvVRyZ32OovVVGhxY/NHWk="
+      },
+      "code": {
+        "default": {
+          "lastDeployHash": "vZonLcCAUz6u69unChjfKmjJWVU="
+        }
+      },
+      "skillInfrastructure": {
+        "@ask-cli/lambda-deployer": {
+          "deployState": {
+            "default": {
+              "lambda": {
+                "arn": "arn:aws:lambda:us-east-1:252897114646:function:ask-skill-sample-python-he-default-default-1605295312204",
+                "lastModified": "2020-11-14T04:34:25.021+0000",
+                "revisionId": "719a6896-b899-4ccf-af67-10a615527d97"
+              },
+              "iamRole": "arn:aws:iam::252897114646:role/ask-lambda-skill-sample-python-helloworld-classes-1605295310031"
+            }
+          }
+        }
+      }
+    }
+  }
+}
